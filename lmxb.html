@@ -77,11 +77,11 @@
 				</p1>
 				</div>	
 
-				<div class="cell" style="background: #ccd8ff; padding:60px 0 60 0 ;width:40%;vertical-align: middle">
+				<div class="cell" style="background: #ccd8ff; padding:60px 0 60 0 ;width:30%;vertical-align: middle">
 
 					<figure>
-					  <img src="src/images/remillard.jpg" style="width:100%;border: 5px solid #555">
-					  	<figcaption> <p1 style="color:black"> Diagram of observed black hole X-ray binaries from <a href="https://ui.adsabs.harvard.edu/abs/2006ARA%26A..44...49R/abstract" target="_blank" style="color:black;text-decoration: underline">Remillard et al. 2006</a> </p1></figcaption>
+					  <img src="src/images/artificial_obs.png" style="width:100%;border: 5px solid #555">
+					  	<figcaption> <p1 style="color:black"> Diagram of artificial light curve observing.</p1></figcaption>
 					</figure>
 				</div>			
 
@@ -98,7 +98,9 @@
 				<p1 style="color:black">
 					Using the population of observed RLO black hole X-ray binaries, prior studies have attempted to constrain the underlying stellar-mass black hole distribution. Contrary to theoretical studies, each of these investigations identified a 'gap' between the lowest mass black holes and the maximum neutron star mass. The two prevailing explanations for this discrepancy are either modifications in the theoretical treatment of supernova energetics or a selection bias that suppresses the detection of low-mass black holes.
 
-					We are investigating this second proposal: potential detection biases in the search for black hole X-ray binary systems. In order to conduct our analysis, we first synthesized a population of binary systems representative of the Milky way. For our target population of black hole X-ray binary systems, we selected all sources composed of a black hole accreting mass from a donor star via RLO. We then determined whether each source was transient or persistent via the disk instability model. 
+					We are investigating this second proposal: potential detection biases in the search for black hole X-ray binary systems. In order to conduct our analysis, we first synthesized a population of binary systems representative of the Milky way. For our target population of black hole X-ray binary systems, we selected all sources composed of a black hole accreting mass from a donor star via RLO. We then determined whether each source was transient or persistent via the disk instability model.
+					<br><br>
+					In order to investigate the detectability of the transient systems, we applied a Monte Carlo artificial observing scheme. For each transient source, we first produce a light curve according to the disk instability model. Each light curve is then run through a toy observation campaign using N random starts. The effective detection probability is then the number of campaigns that observed both outburst and quiescence. See the attached figure for a diagram of this process.
 					<br><br>
 					For a review of the disk instability model see <a href="https://arxiv.org/pdf/1505.02172.pdf" target="_blank" style="color:black;text-decoration: underline">Lasota et al. 2016</a>.
 				</p1>
