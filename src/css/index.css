@@ -1,0 +1,197 @@
+html {
+		height: 100%;
+}
+body {
+		margin: 0;
+		padding: 0px;
+		border: none;
+		color: #000000;
+		font-family: sans-serif;
+		text-align: left;
+		height: 100%;
+}
+
+img {
+	 border: none;
+}
+
+
+p {
+	 text-align: justify;
+}
+
+.filledDiv {
+	background: #E64A45;
+}
+
+/* LINKS
+ ****************************************************************/
+a { 
+	 text-decoration: none;
+	 color: #E64A45;  
+} 
+
+a:hover {
+		font-style: italic; 
+}
+
+
+
+
+/* GENERAL FORMATTING
+*******************************************************************/
+
+.MainTitle {
+	/*background-image: url("src/images/saturn.gif");*/
+	background: linear-gradient(90deg, rgba(158,188,218,1) 14%, rgba(136,86,167,1) 84%);
+	text-align: center; 
+	padding:7px;
+	height:400; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.BoxTitle {
+	background-color:black;
+	height:200;
+	width:400;
+	text-align:center;
+	padding:2px;
+	margin:-70px auto;
+}
+
+.SubTitle {
+	text-align:center;
+	border-style:solid;
+	border-color: "black";
+    background: black;
+    /*height:60;*/
+    padding: 40 
+}
+
+h2 {
+	font-family:Serif;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	border-bottom:solid;
+	width: 70%;
+	margin: 30 auto;
+	padding: 0 0 30 0;
+}
+
+h3 {
+	font-family:Serif;
+	text-align: center;
+    /*padding: 5px 0 0px 0px;*/
+	vertical-align: middle;
+	/*text-align: left;*/
+	font-size: 20px;
+	color: white;
+	margin: 2;
+}
+
+p1 {
+	font-family:Arial;
+	color:white;
+	font-size:25;
+}
+.contact {
+	text-align: center;
+	height: 100;
+	font-style: Serif;
+	background: black;
+	color: white; 
+}
+
+.footer {
+	background: black;
+	height: 200
+}
+/* DIV BASED TABLES */
+
+.table { 
+	display: table; 
+}
+.row { 
+	display: table-row; 
+}
+.cell { 
+	display: table-cell; 
+}
+
+/* IN SITE NAVIGATION */
+.PageLink {
+    color: white;
+    font-family: Serif;
+    font-size: 20pt;
+    font-weight: 500;
+	/*text-align: center;*/
+    /*font-style: italic;*/
+    padding: 100 0 0 100;
+	/*vertical-align:middle*/
+}
+
+.ResearchLink {
+	font-family:Serif;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	/*border-bottom:solid;*/
+	width: 70%;
+	margin: 30 auto;
+	padding: 0 0 30 0;
+}
+
+.navigator {
+    padding: 10px;
+    /*border-right: dotted 1px #606060;*/
+    background: #ffffff;
+    min-height: 400px;
+    height: auto;
+    margin: 0px;
+    text-align: justify;
+    margin: 0px 230px 0px 0px;
+    position: relative;
+}
+
+/* DROPDOWN MENU */
+.dropdown {
+	position: relative;
+	background: #E6772E;
+	color: #3D4C53; 
+	min-width: 100px;
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	/*border: 2px solid #3D4C53;*/
+	cursor:pointer;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left:0px;
+	top:40px;
+	line-height:30px;
+	text-align:center;
+	margin:0;
+	background-color: #3D4C53;
+	color:#E6772E;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+	z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+	text-decoration: none;
+	display: block;
+	color:#E6772E;
+}
+/* The dropdown could simply work on a hover, but this is not mobile friendly. */
+/*.dropdown:hover .dropdown-content {
+	display: block;
+}*/
