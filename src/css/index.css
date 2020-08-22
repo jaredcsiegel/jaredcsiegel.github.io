@@ -44,7 +44,7 @@ a:hover {
 .test  {
   width: 100%;
   height:600px;
-  background-image: url("https://jaredcsiegel.github.io/src/css/mountain.jpg");
+  background-image: url("https://github.com/jaredcsiegel/jaredcsiegel.github.io/tree/master/src/css/mountain.jpg");
   text-align:center;
   background-size: cover; /* or contain depending on what you want */
   background-position: center center;
