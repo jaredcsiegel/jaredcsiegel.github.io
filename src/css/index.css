@@ -41,17 +41,11 @@ a:hover {
 /* GENERAL FORMATTING
 *******************************************************************/
 
-.MainTitle {
-	/*background-image: url("src/images/saturn.gif");*/
-	background: linear-gradient(90deg, rgba(158,188,218,1) 14%, rgba(136,86,167,1) 84%);
-	text-align: center; 
-	padding:7px;
-	height:400; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
+.test  {
+  background-image: url("src/images/Alaska_2016_0291.JPG");
+  /*background-color: #cccccc;*/
 }
+
 
 .BoxTitle {
 	background-color:black;
@@ -59,7 +53,12 @@ a:hover {
 	width:400;
 	text-align:center;
 	padding:2px;
-	margin:-70px auto;
+	/*margin: auto;*/
+	z-index: 1000;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin: -100px 0 0 -200px
 }
 
 .SubTitle {
@@ -74,12 +73,13 @@ a:hover {
 h2 {
 	font-family:Serif;
 	text-align: center;
-	font-size: 40px;
-	color: white;
+	font-size: 60px;
 	border-bottom:solid;
+	border-bottom-width: thick;
 	width: 70%;
 	margin: 30 auto;
 	padding: 0 0 30 0;
+	color : #586473
 }
 
 h3 {
@@ -95,7 +95,7 @@ h3 {
 
 p1 {
 	font-family:Arial;
-	color:white;
+	color:black;
 	font-size:25;
 }
 .contact {
@@ -158,40 +158,48 @@ p1 {
 }
 
 /* DROPDOWN MENU */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
 .dropdown {
-	position: relative;
-	background: #E6772E;
-	color: #3D4C53; 
-	min-width: 100px;
-	height:40px;
-	font-size:20px;
-	text-align:center;
-	line-height:40px;
-	/*border: 2px solid #3D4C53;*/
-	cursor:pointer;
-	display: inline-block;
+  position: relative;
+  display: inline-block;
 }
+
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-	display: none;
-	position: absolute;
-	left:0px;
-	top:40px;
-	line-height:30px;
-	text-align:center;
-	margin:0;
-	background-color: #3D4C53;
-	color:#E6772E;
-	min-width: 100px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
-	z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
+
 /* Links inside the dropdown */
 .dropdown-content a {
-	text-decoration: none;
-	display: block;
-	color:#E6772E;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
-/* The dropdown could simply work on a hover, but this is not mobile friendly. */
-/*.dropdown:hover .dropdown-content {
-	display: block;
-}*/
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
