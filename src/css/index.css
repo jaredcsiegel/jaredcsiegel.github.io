@@ -24,6 +24,21 @@ p {
 	background: #E64A45;
 }
 
+
+/* Figure */
+
+figure {
+    display: inline-block;
+    /* border: 1px dotted gray; */
+    /* margin: 20px; adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    /* border: 1px dotted blue; */
+    text-align: center;
+}
 /* LINKS
  ****************************************************************/
 a { 
@@ -78,8 +93,8 @@ h2 {
 	font-family:Serif;
 	text-align: center;
 	font-size: 60px;
-	border-bottom:solid;
-	border-bottom-width: thick;
+	/* border-bottom:solid; */
+	/* border-bottom-width: thick; */
 	width: 70%;
 	margin: 30 auto;
 	padding: 0 0 30 0;
