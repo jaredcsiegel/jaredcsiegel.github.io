@@ -28,12 +28,14 @@ p {
 /* Figure */
 
 figure {
-    display: inline-block;
+    display: block;
     /* border: 1px dotted gray; */
     /* margin: 20px; adjust as needed */
 }
 figure img {
-    vertical-align: top;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
 }
 figure figcaption {
     /* border: 1px dotted blue; */
@@ -58,7 +60,7 @@ a:hover {
 
 .test  {
   width: 100%;
-  height:600px;
+  height:550px;
   background-image: url("mountain.jpg");
   text-align:center;
   background-size: cover; /* or contain depending on what you want */
@@ -92,7 +94,7 @@ a:hover {
 h2 {
 	font-family:Serif;
 	text-align: center;
-	font-size: 2vw;
+	font-size: 30;
 	/* border-bottom:solid; */
 	/* border-bottom-width: thick; */
 	width: 70%;
@@ -107,7 +109,7 @@ h3 {
     /*padding: 5px 0 0px 0px;*/
 	vertical-align: middle;
 	/*text-align: left;*/
-	font-size: 20px;
+	font-size: 20;
 	color: white;
 	margin: 2;
 }
@@ -145,12 +147,13 @@ p1 {
 .PageLink {
     color: white;
     font-family: Serif;
-    font-size: 20pt;
+    font-size: 30;
     font-weight: 500;
 	/*text-align: center;*/
     /*font-style: italic;*/
-    padding: 100 0 0 100;
+    padding: 100 30 30 100;
 	/*vertical-align:middle*/
+	white-space: nowrap;
 }
 
 .ResearchLink {
