@@ -1,0 +1,8 @@
+site_name: linebyline
+theme:
+  name: material
+nav:
+    - Home: index.md
+    - Tutorials: pipeline.md
+    - Configuration file: config.md
+    # - Methods: methods.md
