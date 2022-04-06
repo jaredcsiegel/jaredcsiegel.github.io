@@ -1,7 +1,7 @@
 # Welcome to <tt>linebyline</tt> 
 
 ## Github
-<a href="https://github.com/California-Planet-Search/linebyline" target="_blank">https://github.com/California-Planet-Search/linebyline
+<a href="https://github.com/California-Planet-Search/linebyline" target="_blank">https://github.com/California-Planet-Search/linebyline</a> 
 
 ## About
 
