@@ -331,15 +331,9 @@
 
 <h1 id="welcome-to-linebyline">Welcome to <tt>linebyline</tt></h1>
 <h2 id="about">About</h2>
-<p><tt>linebyline</tt> is a public python package for conducting high-precision radial velocity (RV) analysis, using the "line-by-line" technique of <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...620A..47D/abstract" target="_blank">Dumusque (2018)</a>. </p>
-<p>This package is a complete RV analysis pipeline, with the ability to process a series of 1D spectra and return corresponding line-by-line radial velocity measurements and stellar activity indices; <tt>linebyline</tt> also facilitates several different methods of stellar activity mitigation, including:</p>
-<ul>
-<li>"Line selection": calculating RVs using spectral lines shown to be insensitive to stellar activity <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...620A..47D/abstract" target="_blank">(Dumusque, 2018)</a>.</li>
-<li>"Formation Depth": using the difference between the RVs of deep and shallow spectral lines as an activity proxy <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...633A..76C/abstract" target="_blank">(Cretignier et al. 2020)</a>.</li>
-<li>FF': tracking stellar activity via a spot model and the star's photometric light curve (or an activity index) <a href="https://ui.adsabs.harvard.edu/abs/2012MNRAS.419.3147A/abstract" target="_blank">(Aigrain et al. 2012)</a>.</li>
-<li>Gaussian process (GP) regression: do we want to include these?</li>
-</ul>
-<p>Currently, HARPS, HARPS-N, and MAROON-X are supported instruments.</p>
+<p><tt>linebyline</tt> is a public python package for conducting high-precision radial velocity (RV) analysis, using the "line-by-line" technique of <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...620A..47D/abstract" target="_blank">Dumusque (2018)</a> and Siegel et al. 2022. </p>
+<p>This package is a complete RV analysis pipeline, with the ability to process a series of 1D spectra and return corresponding line-by-line radial velocity measurements and stellar activity indices.</p>
+<p>Currently, HARPS, HARPS-N, NEID, and MAROON-X are supported instruments.</p>
 <h2 id="installation">Installation</h2>
 <p>To install, download the package, change directories into the downloaded folder, and run:</p>
 <pre><code>pip install .
