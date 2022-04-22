@@ -1,9 +1,9 @@
 # Column: m95     -95% percentile on planet mass from the low-SNR TTV-derived posteriors 
 #                  (using the standard treatment of stellar noise---i.e., uncorrelated
-                    between planets in a given system)
+#                   between planets in a given system)
 # Column: m95_alt -95% percentile on planet mass from the low-SNR TTV-derived posteriors 
 #                  (using the alternate treatment of stellar noise---i.e., identical
-                    between planets in a given system)
+#                   between planets in a given system)
 # Column: radius  -planetary radius
 # , ,Mearth,Mearth,Rearth
 ,KOI,m95,m95_alt,radius
