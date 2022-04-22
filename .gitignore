@@ -45,3 +45,4 @@ coverage.xml
 *.cover
 .hypothesis/
 Profile.prof
+.DS_Store
